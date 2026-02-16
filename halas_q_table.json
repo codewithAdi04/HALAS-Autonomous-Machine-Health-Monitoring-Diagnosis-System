@@ -1,0 +1,32 @@
+{
+    "conversation_high_fast": {
+        "conversation": 0.11576049640905293,
+        "diagnosis": 0.0,
+        "greet": 0.0,
+        "status_check": 0.0
+    },
+    "conversation_low_fast": {
+        "conversation": 0.053544312732284986,
+        "diagnosis": 0.0
+    },
+    "diagnosis_high_fast": {
+        "conversation": 0.035270259,
+        "diagnosis": 0.0
+    },
+    "conversation|low|high|fast": {
+        "conversation": 0.012,
+        "diagnosis": 0.0
+    },
+    "diagnosis_0.95": {
+        "conversation": 0.003999000000000001,
+        "diagnosis": 0.0
+    },
+    "conversation_0.7": {
+        "conversation": 0.0094,
+        "diagnosis": 0.018884555350000002
+    },
+    "conversation_0.75": {
+        "conversation": 0.028485752375000003,
+        "diagnosis": 0.0
+    }
+}

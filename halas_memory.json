@@ -1,0 +1,190 @@
+[
+    {
+        "input": "hello HALAS",
+        "intent": "great",
+        "reward": 0.0,
+        "latency": 3.695487976074219e-05
+    },
+    {
+        "input": "Machine temprature is 95c",
+        "intent": "conversation",
+        "reward": 1.0,
+        "latency": 4.982948303222656e-05
+    },
+    {
+        "input": "hello HALAS",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 0.8699999999999999,
+        "latency": 3.651416063308716,
+        "rag_used": false
+    },
+    {
+        "input": "hello HALAS",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.17,
+        "latency": 0.8447160720825195,
+        "rag_used": false
+    },
+    {
+        "input": "hello halas",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 0.8699999999999999,
+        "latency": 1.6792919635772705,
+        "rag_used": false
+    },
+    {
+        "input": "hello halas",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.17,
+        "latency": 0.5357711315155029,
+        "rag_used": false
+    },
+    {
+        "input": "hello halas",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.17,
+        "latency": 0.6030189990997314,
+        "rag_used": false
+    },
+    {
+        "input": "Hello Halas",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 0.8699999999999999,
+        "latency": 1.2052879333496094,
+        "rag_used": false
+    },
+    {
+        "input": "hello halas",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.17,
+        "latency": 0.6343178749084473,
+        "rag_used": false
+    },
+    {
+        "input": "how are you",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.14,
+        "latency": 0.27890992164611816,
+        "rag_used": false
+    },
+    {
+        "input": "what is your status",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 0.8399999999999999,
+        "latency": 1.278947114944458,
+        "rag_used": false
+    },
+    {
+        "input": "what is your status",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.14,
+        "latency": 0.23994708061218262,
+        "rag_used": false
+    },
+    {
+        "input": "temperature is 95c",
+        "intent": "diagnosis",
+        "action": "conversation",
+        "reward": 1.18,
+        "latency": 0.17043566703796387,
+        "rag_used": false
+    },
+    {
+        "input": "critical overheat detected at 92c",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.14,
+        "latency": 0.8462741374969482,
+        "rag_used": false
+    },
+    {
+        "input": "hello, system shows error and temperature is 91c",
+        "intent": "diagnosis",
+        "action": "conversation",
+        "reward": 1.18,
+        "latency": 0.5431380271911621,
+        "rag_used": false
+    },
+    {
+        "input": "status check, everything okay?",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.17,
+        "latency": 0.6514120101928711,
+        "rag_used": false
+    },
+    {
+        "input": "status check, everything okay?",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.17,
+        "latency": 0.1151881217956543,
+        "rag_used": false
+    },
+    {
+        "input": "tell me something",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.17,
+        "latency": 0.15614891052246094,
+        "rag_used": false
+    },
+    {
+        "input": "????",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.14,
+        "latency": 0.08264708518981934,
+        "rag_used": false
+    },
+    {
+        "input": "explain overheating risks in machines",
+        "intent": "conversation",
+        "action": "conversation",
+        "reward": 1.17,
+        "latency": 0.6989021301269531,
+        "rag_used": false
+    },
+    {
+        "input": "temperature is 95c",
+        "intent": "diagnosis",
+        "action": "conversation",
+        "reward": 1.18,
+        "latency": 0.1415998935699463,
+        "rag_used": false
+    },
+    {
+        "input": "temperature is 95c",
+        "intent": "diagnosis",
+        "action": "diagnosis",
+        "risk": "high",
+        "reward": 0.19999999999999996,
+        "latency": 0.0004589557647705078
+    },
+    {
+        "input": "hello halas",
+        "intent": "conversation",
+        "action": "conversation",
+        "risk": "low",
+        "reward": 1.2,
+        "latency": 0.002025127410888672
+    },
+    {
+        "input": "hello system error temperature is 91c",
+        "intent": "diagnosis",
+        "action": "diagnosis",
+        "risk": "high",
+        "reward": 0.19999999999999996,
+        "latency": 0.0004220008850097656
+    }
+]

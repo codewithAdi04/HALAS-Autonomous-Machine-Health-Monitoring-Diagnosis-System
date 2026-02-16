@@ -1,0 +1,323 @@
+2026-02-14 04:55:30 | INFO | HALAS | [API] User query received: hello HALAS
+2026-02-14 04:55:30 | INFO | HALAS | Input received: hello HALAS
+2026-02-14 04:55:34 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-14 04:55:34 | INFO | HALAS | [RAG] No relevant context found.
+2026-02-14 04:55:34 | INFO | HALAS | [Planner] ML intent: rag | Confidence: 0.44444435834884644
+2026-02-14 04:55:34 | WARNING | HALAS | [Planner] Low ML confidence. Using fallback.
+2026-02-14 04:55:34 | INFO | HALAS | Planner intent: conversation | Confidence: 0.85
+2026-02-14 04:55:34 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-14 04:55:34 | INFO | HALAS | RL selected action: conversation
+2026-02-14 04:55:34 | INFO | HALAS | Skill result: {'response': "I'm evaluating your request.", 'status': 'success', 'agent': 'ConversationAgent', 'intent': 'fallback', 'routed_by': 'SkillRouter', 'main_intent': 'conversation'}
+2026-02-14 04:55:34 | INFO | HALAS | Calculated reward: 0.8699999999999999
+2026-02-14 04:55:34 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0000 | New: 0.0087
+2026-02-14 04:55:34 | INFO | HALAS | Execution latency: 3.6514 seconds
+2026-02-14 04:57:56 | INFO | HALAS | [API] User query received: hello HALAS
+2026-02-14 04:57:56 | INFO | HALAS | Input received: hello HALAS
+2026-02-14 04:57:56 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-14 04:57:56 | INFO | HALAS | [RAG] No relevant context found.
+2026-02-14 04:57:56 | INFO | HALAS | [Planner] ML intent: rag | Confidence: 0.44444435834884644
+2026-02-14 04:57:56 | WARNING | HALAS | [Planner] Low ML confidence. Using fallback.
+2026-02-14 04:57:56 | INFO | HALAS | Planner intent: conversation | Confidence: 0.85
+2026-02-14 04:57:56 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-14 04:57:56 | INFO | HALAS | RL selected action: conversation
+2026-02-14 04:57:56 | INFO | HALAS | Skill result: {'response': "Interesting input. Let's analyze it step by step.", 'status': 'success', 'agent': 'ConversationAgent', 'intent': 'fallback', 'routed_by': 'SkillRouter', 'main_intent': 'conversation'}
+2026-02-14 04:57:56 | INFO | HALAS | Calculated reward: 1.17
+2026-02-14 04:57:56 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0087 | New: 0.0203
+2026-02-14 04:57:56 | INFO | HALAS | Execution latency: 0.8447 seconds
+2026-02-15 13:38:29 | INFO | HALAS | [API] User query received: hello halas
+2026-02-15 13:38:29 | INFO | HALAS | [MetaAgent] Input received: hello halas
+2026-02-15 13:38:30 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 13:38:31 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 13:38:31 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 13:38:31 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 13:38:31 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 13:38:31 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 13:38:31 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0203 | New: 0.0288
+2026-02-15 13:41:12 | INFO | HALAS | [MetaAgent] Input received: hello halas
+2026-02-15 13:41:15 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 13:43:14 | INFO | HALAS | [API] User query received: hello halas
+2026-02-15 13:43:14 | INFO | HALAS | [MetaAgent] Input received: hello halas
+2026-02-15 13:43:15 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 13:43:15 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 13:43:15 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 13:43:15 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 13:43:15 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 13:43:15 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 13:43:15 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0288 | New: 0.0402
+2026-02-15 13:45:31 | INFO | HALAS | [API] User query received: hello halas
+2026-02-15 13:45:31 | INFO | HALAS | [MetaAgent] Input received: hello halas
+2026-02-15 13:45:32 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 13:45:32 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 13:45:32 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 13:45:32 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 13:45:32 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 13:45:32 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 13:45:32 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0402 | New: 0.0515
+2026-02-15 13:51:27 | INFO | HALAS | [API] User query received: Hello Halas
+2026-02-15 13:51:27 | INFO | HALAS | [MetaAgent] Input received: Hello Halas
+2026-02-15 13:51:28 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 13:51:28 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 13:51:28 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 13:51:28 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 13:51:28 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 13:51:28 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 13:51:28 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0515 | New: 0.0597
+2026-02-15 13:59:45 | INFO | HALAS | [API] User query received: hello halas
+2026-02-15 13:59:45 | INFO | HALAS | [MetaAgent] Input received: hello halas
+2026-02-15 13:59:45 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 13:59:45 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 13:59:45 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 13:59:45 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 13:59:45 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 13:59:45 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 13:59:45 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0597 | New: 0.0708
+2026-02-15 14:00:01 | INFO | HALAS | [API] User query received: how are you
+2026-02-15 14:00:01 | INFO | HALAS | [MetaAgent] Input received: how are you
+2026-02-15 14:00:02 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:00:02 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:00:02 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:00:02 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:00:02 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:00:02 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:00:02 | INFO | HALAS | [RL] Update | State: conversation_low_fast | Action: conversation | Old: 0.0000 | New: 0.0114
+2026-02-15 14:00:29 | INFO | HALAS | [API] User query received: what is your status
+2026-02-15 14:00:29 | INFO | HALAS | [MetaAgent] Input received: what is your status
+2026-02-15 14:00:30 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:00:30 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:00:30 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:00:30 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:00:30 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:00:30 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:00:30 | INFO | HALAS | [RL] Update | State: conversation_low_fast | Action: conversation | Old: 0.0114 | New: 0.0197
+2026-02-15 14:00:55 | INFO | HALAS | [API] User query received: what is your status
+2026-02-15 14:00:55 | INFO | HALAS | [MetaAgent] Input received: what is your status
+2026-02-15 14:00:56 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:00:56 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:00:56 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:00:56 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:00:56 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:00:56 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:00:56 | INFO | HALAS | [RL] Update | State: conversation_low_fast | Action: conversation | Old: 0.0197 | New: 0.0311
+2026-02-15 14:01:17 | INFO | HALAS | [API] User query received: temperature is 95c
+2026-02-15 14:01:17 | INFO | HALAS | [MetaAgent] Input received: temperature is 95c
+2026-02-15 14:01:17 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:01:17 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:01:17 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:01:17 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:01:17 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:01:17 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:01:17 | INFO | HALAS | [RL] Update | State: diagnosis_high_fast | Action: conversation | Old: 0.0000 | New: 0.0118
+2026-02-15 14:01:44 | INFO | HALAS | [API] User query received: critical overheat detected at 92c
+2026-02-15 14:01:44 | INFO | HALAS | [MetaAgent] Input received: critical overheat detected at 92c
+2026-02-15 14:01:44 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:01:44 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:01:44 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:01:44 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:01:44 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:01:44 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:01:44 | INFO | HALAS | [RL] Update | State: conversation_low_fast | Action: conversation | Old: 0.0311 | New: 0.0422
+2026-02-15 14:02:11 | INFO | HALAS | [API] User query received: hello, system shows error and temperature is 91c
+2026-02-15 14:02:11 | INFO | HALAS | [MetaAgent] Input received: hello, system shows error and temperature is 91c
+2026-02-15 14:02:11 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:02:11 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:02:11 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:02:11 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:02:11 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:02:11 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:02:11 | INFO | HALAS | [RL] Update | State: diagnosis_high_fast | Action: conversation | Old: 0.0118 | New: 0.0235
+2026-02-15 14:02:24 | INFO | HALAS | [API] User query received: status check, everything okay?
+2026-02-15 14:02:24 | INFO | HALAS | [MetaAgent] Input received: status check, everything okay?
+2026-02-15 14:02:24 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:02:24 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:02:24 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:02:24 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:02:24 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:02:24 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:02:24 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0708 | New: 0.0818
+2026-02-15 14:02:45 | INFO | HALAS | [API] User query received: status check, everything okay?
+2026-02-15 14:02:45 | INFO | HALAS | [MetaAgent] Input received: status check, everything okay?
+2026-02-15 14:02:46 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:02:46 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:02:46 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:02:46 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:02:46 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:02:46 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:02:46 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0818 | New: 0.0935
+2026-02-15 14:03:04 | INFO | HALAS | [API] User query received: tell me something
+2026-02-15 14:03:04 | INFO | HALAS | [MetaAgent] Input received: tell me something
+2026-02-15 14:03:04 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:03:04 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:03:04 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:03:04 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:03:04 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:03:04 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:03:04 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.0935 | New: 0.1051
+2026-02-15 14:03:28 | INFO | HALAS | [API] User query received: ????
+2026-02-15 14:03:28 | INFO | HALAS | [MetaAgent] Input received: ????
+2026-02-15 14:03:28 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:03:28 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:03:28 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:03:28 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:03:28 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:03:28 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:03:28 | INFO | HALAS | [RL] Update | State: conversation_low_fast | Action: conversation | Old: 0.0422 | New: 0.0535
+2026-02-15 14:03:44 | INFO | HALAS | [API] User query received: explain overheating risks in machines
+2026-02-15 14:03:44 | INFO | HALAS | [MetaAgent] Input received: explain overheating risks in machines
+2026-02-15 14:03:45 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:03:45 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:03:45 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:03:45 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:03:45 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:03:45 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:03:45 | INFO | HALAS | [RL] Update | State: conversation_high_fast | Action: conversation | Old: 0.1051 | New: 0.1158
+2026-02-15 14:04:00 | INFO | HALAS | [API] User query received: temperature is 95c
+2026-02-15 14:04:00 | INFO | HALAS | [MetaAgent] Input received: temperature is 95c
+2026-02-15 14:04:00 | INFO | HALAS | [RAG] Retrieved 0 documents
+2026-02-15 14:04:00 | INFO | HALAS | [Planner] ML output: {'intent': 'rag', 'confidence': 0.44444435834884644}
+2026-02-15 14:04:00 | WARNING | HALAS | [Planner] Unknown intent 'rag'. Using fallback.
+2026-02-15 14:04:00 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:04:00 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:04:00 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:04:00 | INFO | HALAS | [RL] Update | State: diagnosis_high_fast | Action: conversation | Old: 0.0235 | New: 0.0353
+2026-02-15 14:18:01 | INFO | HALAS | [API] User query received: temperature is 95c
+2026-02-15 14:18:01 | INFO | HALAS | [MetaAgent] Input: temperature is 95c
+2026-02-15 14:18:01 | INFO | HALAS | [Planner] Intent=diagnosis | Risk=high | Confidence=0.95
+2026-02-15 14:18:01 | WARNING | HALAS | [MetaAgent] Safety override → Diagnosis selected
+2026-02-15 14:18:01 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 14:18:01 | INFO | HALAS | [DiagnosisSkill] Running diagnosis analysis
+2026-02-15 14:18:36 | INFO | HALAS | [API] User query received: hello halas
+2026-02-15 14:18:36 | INFO | HALAS | [MetaAgent] Input: hello halas
+2026-02-15 14:18:36 | INFO | HALAS | [Planner] Intent=conversation | Risk=low | Confidence=0.9
+2026-02-15 14:18:36 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 14:18:36 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 14:18:36 | INFO | HALAS | [ConversationSkill] Processing conversation
+2026-02-15 14:18:36 | INFO | HALAS | [RL] Update | State: conversation|low|high|fast | Action: conversation | Old: 0.0000 | New: 0.0120
+2026-02-15 14:18:57 | INFO | HALAS | [API] User query received: hello system error temperature is 91c
+2026-02-15 14:18:57 | INFO | HALAS | [MetaAgent] Input: hello system error temperature is 91c
+2026-02-15 14:18:57 | INFO | HALAS | [Planner] Intent=diagnosis | Risk=high | Confidence=0.95
+2026-02-15 14:18:57 | WARNING | HALAS | [MetaAgent] Safety override → Diagnosis selected
+2026-02-15 14:18:57 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 14:18:57 | INFO | HALAS | [DiagnosisSkill] Running diagnosis analysis
+2026-02-15 15:18:49 | INFO | HALAS | [API] User query received: temperature is 95c and system error
+2026-02-15 15:18:49 | INFO | HALAS | [HALAS] Input: temperature is 95c and system error
+2026-02-15 15:18:49 | INFO | HALAS | [Planner] Intent=diagnosis | Risk=high | Confidence=0.95
+2026-02-15 15:18:49 | ERROR | HALAS | [HALAS] Failure
+Traceback (most recent call last):
+  File "/Users/adityakumar/HALAS/app/agents/meta_agent.py", line 49, in run
+    state = self.env.get_state(intent, confidence, 0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HALASEnvironment.get_state() missing 1 required positional argument: 'risk'
+2026-02-15 15:23:10 | INFO | HALAS | [API] User query received: temperature is 95c and system error
+2026-02-15 15:23:10 | INFO | HALAS | [HALAS] Input: temperature is 95c and system error
+2026-02-15 15:23:10 | INFO | HALAS | [Planner] Intent=diagnosis | Risk=high | Confidence=0.95
+2026-02-15 15:23:10 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 15:23:10 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 15:23:10 | INFO | HALAS | [RL] Update | State: diagnosis_0.95 | Action: conversation | Old: 0.0000 | New: 0.0020
+2026-02-15 15:26:39 | INFO | HALAS | [API] User query received: temperature is 95c and system error
+2026-02-15 15:26:39 | INFO | HALAS | [HALAS] Input: temperature is 95c and system error
+2026-02-15 15:26:39 | INFO | HALAS | [Planner] High temperature detected → diagnosis
+2026-02-15 15:26:39 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 15:26:39 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 15:26:39 | INFO | HALAS | [RL] Update | State: diagnosis_0.95 | Action: conversation | Old: 0.0020 | New: 0.0040
+2026-02-15 15:31:30 | INFO | HALAS | [API] User query received: temperature is 95c and system error
+2026-02-15 15:31:30 | INFO | HALAS | [HALAS] Input: temperature is 95c and system error
+2026-02-15 15:31:30 | INFO | HALAS | [Planner] High temperature detected → diagnosis
+2026-02-15 15:31:30 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 15:31:30 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:33:44 | INFO | HALAS | [API] User query received: hello halas
+2026-02-15 15:33:44 | INFO | HALAS | [HALAS] Input: hello halas
+2026-02-15 15:33:44 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 15:33:44 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 15:33:44 | INFO | HALAS | [RL] Update | State: conversation_0.7 | Action: conversation | Old: 0.0000 | New: 0.0094
+2026-02-15 15:34:08 | INFO | HALAS | [API] User query received: how are you
+2026-02-15 15:34:08 | INFO | HALAS | [HALAS] Input: how are you
+2026-02-15 15:34:08 | INFO | HALAS | [RL] Exploration → diagnosis
+2026-02-15 15:34:08 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:34:08 | INFO | HALAS | [RL] Update | State: conversation_0.7 | Action: diagnosis | Old: 0.0000 | New: 0.0095
+2026-02-15 15:34:24 | INFO | HALAS | [API] User query received: temperature is 95c
+2026-02-15 15:34:24 | INFO | HALAS | [HALAS] Input: temperature is 95c
+2026-02-15 15:34:24 | INFO | HALAS | [Planner] High temperature detected → diagnosis
+2026-02-15 15:34:24 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 15:34:24 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:34:43 | INFO | HALAS | [API] User query received: system error detected
+2026-02-15 15:34:43 | INFO | HALAS | [HALAS] Input: system error detected
+2026-02-15 15:34:43 | INFO | HALAS | [Planner] Error detected → diagnosis
+2026-02-15 15:34:43 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 15:34:43 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:34:55 | INFO | HALAS | [API] User query received: critical failure and overheat at 92c
+2026-02-15 15:34:55 | INFO | HALAS | [HALAS] Input: critical failure and overheat at 92c
+2026-02-15 15:34:55 | INFO | HALAS | [Planner] High temperature detected → diagnosis
+2026-02-15 15:34:55 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 15:34:55 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:35:08 | INFO | HALAS | [API] User query received: hello system shows error and temperature is 91c
+2026-02-15 15:35:08 | INFO | HALAS | [HALAS] Input: hello system shows error and temperature is 91c
+2026-02-15 15:35:08 | INFO | HALAS | [Planner] High temperature detected → diagnosis
+2026-02-15 15:35:08 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 15:35:08 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:35:26 | INFO | HALAS | [API] User query received: ????
+2026-02-15 15:35:26 | INFO | HALAS | [HALAS] Input: ????
+2026-02-15 15:35:26 | INFO | HALAS | [RL] Exploitation → diagnosis
+2026-02-15 15:35:26 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:35:26 | INFO | HALAS | [RL] Update | State: conversation_0.7 | Action: diagnosis | Old: 0.0095 | New: 0.0189
+2026-02-15 15:50:04 | INFO | HALAS | [API] User query received: hello
+2026-02-15 15:50:04 | INFO | HALAS | [HALAS] Input: hello
+2026-02-15 15:50:04 | INFO | HALAS | [Planner] No health risk → conversation
+2026-02-15 15:50:04 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 15:50:04 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 15:50:04 | INFO | HALAS | [RL] Update | State: conversation_0.75 | Action: conversation | Old: 0.0000 | New: 0.0095
+2026-02-15 15:50:31 | INFO | HALAS | [API] User query received: machine failure occurred
+2026-02-15 15:50:31 | INFO | HALAS | [HALAS] Input: machine failure occurred
+2026-02-15 15:50:31 | INFO | HALAS | [Planner] Error keyword detected → diagnosis
+2026-02-15 15:50:31 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 15:50:31 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:50:55 | INFO | HALAS | [API] User query received: system overheating at 100c
+2026-02-15 15:50:55 | INFO | HALAS | [HALAS] Input: system overheating at 100c
+2026-02-15 15:50:55 | INFO | HALAS | [Planner] Critical temperature → diagnosis
+2026-02-15 15:50:55 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 15:50:55 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:51:11 | INFO | HALAS | [API] User query received: system shows error and temperature is 91c
+2026-02-15 15:51:11 | INFO | HALAS | [HALAS] Input: system shows error and temperature is 91c
+2026-02-15 15:51:11 | INFO | HALAS | [Planner] Critical temperature → diagnosis
+2026-02-15 15:51:11 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 15:51:11 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 15:51:26 | INFO | HALAS | [API] User query received: idk what happened
+2026-02-15 15:51:26 | INFO | HALAS | [HALAS] Input: idk what happened
+2026-02-15 15:51:26 | INFO | HALAS | [Planner] No health risk → conversation
+2026-02-15 15:51:26 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 15:51:26 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 15:51:26 | INFO | HALAS | [RL] Update | State: conversation_0.75 | Action: conversation | Old: 0.0095 | New: 0.0190
+2026-02-15 15:57:53 | INFO | HALAS | [API] User query received: The industrial machine has been operating continuously for several hours. Recently, the system started showing error logs and abnormal behavior. The temperature, which usually stays around 65c, has now increased to 95c and overheating warnings are appearing. There are also critical failure messages being reported. Based on these conditions, is the machine safe to continue operation or does this indicate a serious health risk that requires immediate shutdown?
+2026-02-15 15:57:53 | INFO | HALAS | [HALAS] Input: The industrial machine has been operating continuously for several hours. Recently, the system started showing error logs and abnormal behavior. The temperature, which usually stays around 65c, has now increased to 95c and overheating warnings are appearing. There are also critical failure messages being reported. Based on these conditions, is the machine safe to continue operation or does this indicate a serious health risk that requires immediate shutdown?
+2026-02-15 15:57:53 | INFO | HALAS | [Planner] Error keyword detected → diagnosis
+2026-02-15 15:57:53 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 15:57:53 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 16:00:18 | INFO | HALAS | [API] User query received: Since early morning I have been feeling extremely weak and unwell. My body feels very hot, I am sweating continuously, and there is dizziness along with discomfort. I also noticed that my temperature might be unusually high. Based on these symptoms, does this indicate a serious health risk that requires immediate attention?
+2026-02-15 16:00:18 | INFO | HALAS | [HALAS] Input: Since early morning I have been feeling extremely weak and unwell. My body feels very hot, I am sweating continuously, and there is dizziness along with discomfort. I also noticed that my temperature might be unusually high. Based on these symptoms, does this indicate a serious health risk that requires immediate attention?
+2026-02-15 16:00:18 | INFO | HALAS | [Planner] No health risk → conversation
+2026-02-15 16:00:18 | INFO | HALAS | [RL] Exploitation → conversation
+2026-02-15 16:00:18 | INFO | HALAS | [SkillRouter] Routing intent: conversation
+2026-02-15 16:00:18 | INFO | HALAS | [RL] Update | State: conversation_0.75 | Action: conversation | Old: 0.0190 | New: 0.0285
+2026-02-15 16:02:56 | INFO | HALAS | [API] User query received: The industrial compressor unit has been running continuously for the past 12 hours under heavy load. During the last hour, multiple system error logs were generated and the operating temperature, which normally stays below 70c, has now increased to 96c. Overheating warnings and critical failure alerts are appearing on the control panel. Based on these signals, does this indicate a serious machine health risk that requires immediate shutdown or emergency maintenance?
+2026-02-15 16:02:56 | INFO | HALAS | [HALAS] Input: The industrial compressor unit has been running continuously for the past 12 hours under heavy load. During the last hour, multiple system error logs were generated and the operating temperature, which normally stays below 70c, has now increased to 96c. Overheating warnings and critical failure alerts are appearing on the control panel. Based on these signals, does this indicate a serious machine health risk that requires immediate shutdown or emergency maintenance?
+2026-02-15 16:02:56 | INFO | HALAS | [Planner] Error keyword detected → diagnosis
+2026-02-15 16:02:56 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 16:02:56 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 16:08:48 | INFO | HALAS | [API] User query received: The industrial turbine has been operating continuously under high load for the past 14 hours. Normally, its operating temperature remains around 65c. However, in the last 30 minutes, the temperature has gradually increased to 96c. Along with this, multiple system error logs and critical failure warnings have started appearing on the monitoring dashboard. There is abnormal vibration and performance degradation. Based on these combined conditions, does this situation indicate a serious machine health risk that requires immediate shutdown or emergency maintenance?
+2026-02-15 16:08:48 | INFO | HALAS | [HALAS] Input: The industrial turbine has been operating continuously under high load for the past 14 hours. Normally, its operating temperature remains around 65c. However, in the last 30 minutes, the temperature has gradually increased to 96c. Along with this, multiple system error logs and critical failure warnings have started appearing on the monitoring dashboard. There is abnormal vibration and performance degradation. Based on these combined conditions, does this situation indicate a serious machine health risk that requires immediate shutdown or emergency maintenance?
+2026-02-15 16:08:48 | INFO | HALAS | [Planner] Error keyword detected → diagnosis
+2026-02-15 16:08:48 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 16:08:48 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 16:15:25 | INFO | HALAS | [API] User query received: The industrial turbine has been operating continuously under high load for the past 14 hours. Normally, its operating temperature remains around 65c. However, in the last 30 minutes, the temperature has gradually increased to 96c. Along with this, multiple system error logs and critical failure warnings have started appearing on the monitoring dashboard. There is abnormal vibration and performance degradation. Based on these combined conditions, does this situation indicate a serious machine health risk that requires immediate shutdown or emergency maintenance?
+2026-02-15 16:15:25 | INFO | HALAS | [HALAS] Input: The industrial turbine has been operating continuously under high load for the past 14 hours. Normally, its operating temperature remains around 65c. However, in the last 30 minutes, the temperature has gradually increased to 96c. Along with this, multiple system error logs and critical failure warnings have started appearing on the monitoring dashboard. There is abnormal vibration and performance degradation. Based on these combined conditions, does this situation indicate a serious machine health risk that requires immediate shutdown or emergency maintenance?
+2026-02-15 16:15:25 | INFO | HALAS | [Planner] Error keyword detected → diagnosis
+2026-02-15 16:15:25 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 16:15:25 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 16:15:25 | INFO | HALAS | [Diagnosis] Signals received | Temp=65, Error=True, Hint=low
+2026-02-15 16:15:25 | INFO | HALAS | [Diagnosis] Final assessment: {'status': 'success', 'response': 'System Error Detected', 'severity': 'medium', 'temperature': 65, 'safe_to_operate': True, 'recommendation': 'Maintenance recommended. Monitor system closely.'}
+2026-02-15 16:15:47 | INFO | HALAS | [API] User query received: The industrial turbine has been operating continuously under high load for the past 14 hours. Normally, its operating temperature remains around 65c. However, in the last 30 minutes, the temperature has gradually increased to 96c. Along with this, multiple system error logs and critical failure warnings have started appearing on the monitoring dashboard. There is abnormal vibration and performance degradation. Based on these combined conditions, does this situation indicate a serious machine health risk that requires immediate shutdown or emergency maintenance?
+2026-02-15 16:15:47 | INFO | HALAS | [HALAS] Input: The industrial turbine has been operating continuously under high load for the past 14 hours. Normally, its operating temperature remains around 65c. However, in the last 30 minutes, the temperature has gradually increased to 96c. Along with this, multiple system error logs and critical failure warnings have started appearing on the monitoring dashboard. There is abnormal vibration and performance degradation. Based on these combined conditions, does this situation indicate a serious machine health risk that requires immediate shutdown or emergency maintenance?
+2026-02-15 16:15:47 | INFO | HALAS | [Planner] Error keyword detected → diagnosis
+2026-02-15 16:15:47 | INFO | HALAS | [MetaAgent] Diagnosis intent → bypass RL
+2026-02-15 16:15:47 | INFO | HALAS | [SkillRouter] Routing intent: diagnosis
+2026-02-15 16:15:47 | INFO | HALAS | [Diagnosis] Signals received | Temp=65, Error=True, Hint=low
+2026-02-15 16:15:47 | INFO | HALAS | [Diagnosis] Final assessment: {'status': 'success', 'response': 'System Error Detected', 'severity': 'medium', 'temperature': 65, 'safe_to_operate': True, 'recommendation': 'Maintenance recommended. Monitor system closely.'}
