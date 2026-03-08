@@ -210,9 +210,13 @@ Performance is achieved due to:
 	•	Structured signal extraction
 	•	Lightweight decision logic
 	•	Efficient agent routing
-
 ⸻
 
 10. Project Aim
 
 To intelligently analyze unstructured machine logs in real time and detect machine health risks, enabling safer and faster operational decisions.
+
+output:
+<img width="1680" height="1050" alt="Screenshot 2026-03-08 at 3 03 53 PM" src="https://github.com/user-attachments/assets/946a4f82-fcf1-4213-b863-c888385efdc4" />
+<img width="1680" height="1050" alt="Screenshot 2026-03-08 at 3 02 37 PM" src="https://github.com/user-attachments/assets/e702c282-f137-4f9e-95e0-73a5a57e8e62" />
+
